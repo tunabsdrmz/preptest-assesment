@@ -3,6 +3,19 @@
 @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-poppins: var(--font-poppins);
+
+  /* Colors */
+  --color-primary: #ff7b5d;
+  --color-primary-light: #fff5eb;
+  --color-secondary: #6fb2b8;
+  --color-secondary-light: rgba(181, 214, 216, 0.25);
+  --color-dark: #505254;
+  --color-light-dark: rgba(80, 82, 84, 0.75);
+
+  /* Breakpoints */
+  --breakpoint-xs: 480px;
+  --breakpoint-xxs: 380px;
 }
 
 :root {
@@ -10,7 +23,7 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
